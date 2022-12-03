@@ -6,13 +6,13 @@ import { getAuth } from "firebase/auth";
 import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAc7bOqkQPE0Q83gPjUnPhxwytEbJsetJI",
-  authDomain: "fir-auth-template-5d66c.firebaseapp.com",
-  projectId: "fir-auth-template-5d66c",
-  storageBucket: "fir-auth-template-5d66c.appspot.com",
-  messagingSenderId: "456748994419",
-  appId: "1:456748994419:web:c320a2e4a5f08ad54e7f06",
-  measurementId: "G-ZWCPN7FZN8",
+  apiKey: "xxx",
+  authDomain: "xxx",
+  projectId: "xxx",
+  storageBucket: "xxx",
+  messagingSenderId: "xxx",
+  appId: "xxx",
+  measurementId: "xxx",
 };
 
 if (!getApps()?.length) initializeApp(firebaseConfig);
